@@ -13,7 +13,7 @@ describe('Bookmark API', () => {
             .post('/bookmarks')
             .set('Content-Type', 'application/json')
             .send(
-                '{ "name": "Google", "link": "https://www.google.com" }',
+                '{ "title": "Google", "link": "https://www.google.com" }',
             );;
         expect(res.statusCode).toBe(200);
         expect(res.body).toMatchSnapshot();
