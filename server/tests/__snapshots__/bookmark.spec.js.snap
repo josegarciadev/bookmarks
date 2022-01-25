@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Bookmark API should add a new bookmark 1`] = `Object {}`;
+
+exports[`Bookmark API should return the bookmarks 1`] = `Array []`;
