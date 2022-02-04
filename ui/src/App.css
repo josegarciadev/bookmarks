@@ -1,7 +1,65 @@
 body {
-	background-color: #282c34;
+	background-color: white;
 	font-size: calc(10px + 2vmin);
-	color: white;
+	color: black;
 	font-family: 'Courier New', Courier, monospace;
 	text-align: center;
+}
+
+.form-control{
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	width: 500px;
+	padding-bottom: 1em;
+	font-family: 'Open Sans',sans-serif;
+	font-weight: 300;
+}
+
+.form-input-text{
+	width: 350px;
+	border: 2px solid black;
+}
+
+.buttom-add{
+	background: white;
+	border: 2px solid black;
+	font-size: 16px;
+	padding: 4px 8px;
+	box-shadow: 3px 3px black;
+	cursor: pointer;
+}
+
+.buttom-add:hover{
+	background: black;
+	border: 2px solid white;
+	color: white;
+	transition: 200ms;
+}
+
+.container{
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
+}
+.container-grid{
+	display: grid;
+grid-template-columns: auto auto auto;
+gap: 20px 20px;
+}
+.card{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid black;
+	border-radius: 25px;
+	padding: 10px;
+	font-size: 20px;
+	text-align: center;
+	width: 200px;
+	height: 100px;
+}	
+
+.card-label{
+	width: 180px;
 }

@@ -1,5 +1,23 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Bookmarks should match render form 1`] = `
+<Fragment>
+  <BookmarkForm
+    form={
+      Object {
+        "link": "",
+        "title": "",
+      }
+    }
+    onHandleChange={[Function]}
+    onHandleSave={[Function]}
+  />
+  <BookmarkList
+    data={Array []}
+  />
+</Fragment>
+`;
+
 exports[`Bookmarks should match snapshot 1`] = `
 <Fragment>
   <BookmarkForm />
