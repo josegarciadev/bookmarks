@@ -1,3 +1,151 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`BookmarkForm should match snapshot 1`] = `<Fragment />`;
+exports[`BookmarkForm should match Onchange Event 1`] = `
+<Fragment>
+  <form
+    onSubmit={[Function]}
+  >
+    <div
+      className="form-control"
+    >
+      <label
+        htmlFor="title"
+      >
+        Title: 
+      </label>
+      <input
+        className="form-input-text"
+        id="title"
+        name="title"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="form-control"
+    >
+      <label
+        className="FormLabel"
+        htmlFor="Link"
+      >
+        Link:
+      </label>
+      <input
+        className="form-input-text"
+        id="Link"
+        name="link"
+        onChange={[Function]}
+        type="url"
+        value=""
+      />
+    </div>
+    <input
+      className="buttom-add"
+      disabled={true}
+      type="submit"
+      value="Add"
+    />
+  </form>
+</Fragment>
+`;
+
+exports[`BookmarkForm should match Onchange empty 1`] = `
+<Fragment>
+  <form
+    onSubmit={[Function]}
+  >
+    <div
+      className="form-control"
+    >
+      <label
+        htmlFor="title"
+      >
+        Title: 
+      </label>
+      <input
+        className="form-input-text"
+        id="title"
+        name="title"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="form-control"
+    >
+      <label
+        className="FormLabel"
+        htmlFor="Link"
+      >
+        Link:
+      </label>
+      <input
+        className="form-input-text"
+        id="Link"
+        name="link"
+        onChange={[Function]}
+        type="url"
+        value=""
+      />
+    </div>
+    <input
+      className="buttom-add"
+      disabled={true}
+      type="submit"
+      value="Add"
+    />
+  </form>
+</Fragment>
+`;
+
+exports[`BookmarkForm should match snapshot 1`] = `
+<Fragment>
+  <form
+    onSubmit={[Function]}
+  >
+    <div
+      className="form-control"
+    >
+      <label
+        htmlFor="title"
+      >
+        Title: 
+      </label>
+      <input
+        className="form-input-text"
+        id="title"
+        name="title"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="form-control"
+    >
+      <label
+        className="FormLabel"
+        htmlFor="Link"
+      >
+        Link:
+      </label>
+      <input
+        className="form-input-text"
+        id="Link"
+        name="link"
+        onChange={[Function]}
+        type="url"
+        value=""
+      />
+    </div>
+    <input
+      className="buttom-add"
+      disabled={true}
+      type="submit"
+      value="Add"
+    />
+  </form>
+</Fragment>
+`;

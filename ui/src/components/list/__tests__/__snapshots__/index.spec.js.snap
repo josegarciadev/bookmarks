@@ -1,3 +1,28 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`BookmarkList should match snapshot 1`] = `<Fragment />`;
+exports[`BookmarkList should match snapshot 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="container-grid"
+  >
+    <Card
+      key="48e6c5e7-e0c6-4614-8ac1-8193920de8eb"
+      label="google"
+    />
+    <Card
+      key="92ac82a5-74ba-4a99-9ede-d9d2a434568f"
+      label="Bookmarks"
+    />
+    <Card
+      key="f1f20ffd-edf8-4f11-99ab-359158723eb1"
+      label="curso react native"
+    />
+    <Card
+      key="bbda2eb6-6917-47f0-a512-5903cc568c44"
+      label="curso flutter"
+    />
+  </div>
+</div>
+`;

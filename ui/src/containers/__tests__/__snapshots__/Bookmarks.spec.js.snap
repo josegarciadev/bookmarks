@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Bookmarks should match render form 1`] = `
+exports[`Bookmarks should match snapshot 1`] = `
 <Fragment>
   <BookmarkForm
     form={
@@ -15,12 +15,5 @@ exports[`Bookmarks should match render form 1`] = `
   <BookmarkList
     data={Array []}
   />
-</Fragment>
-`;
-
-exports[`Bookmarks should match snapshot 1`] = `
-<Fragment>
-  <BookmarkForm />
-  <BookmarkList />
 </Fragment>
 `;
